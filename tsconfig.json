@@ -60,7 +60,10 @@
       "@store": ["src/store"],
 
       "@utils/*": ["src/utils/*"],
-      "@utils": ["src/utils"]
+      "@utils": ["src/utils"],
+
+      "@assets/*": ["src/assets/*"],
+      "@assets": ["src/assets"]
     },               /* Type declaration files to be included in compilation. */
     "allowSyntheticDefaultImports": true,     /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
     "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
